@@ -1,0 +1,31 @@
+/* MENU GRID */
+#example-section {
+	margin: 0 auto;
+	min-width: 350px;
+	width: 50vw;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 350px);
+	justify-content: center;
+	gap: 25px;
+}
+
+.example-card {
+	background-color: white;
+	padding: var(--section-padding);
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	text-align: center;
+	border-radius: var(--semi-rounded-borders);
+	box-shadow: var(--box-shadow);
+	width: 300px;
+
+	h3 {
+		margin: 0px;
+	}
+
+	img {
+		margin: 16px auto 0;
+		width: 80%;
+	}
+}

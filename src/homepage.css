@@ -1,0 +1,46 @@
+/* HOMEPAGE STYLING */
+#content {
+	width: 85vw;
+	margin: 0 auto;
+}
+
+#heading {
+	text-align: center;
+	color: white;
+	margin: 48px auto;
+
+	h1 {
+		margin-bottom: 8px;
+		font-size: 2.5rem;
+	}
+
+	p {
+		margin-top: 0px;
+		font-size: 0.9rem;
+		opacity: 75%;
+	}
+}
+
+#main-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.info-container {
+	color: white;
+	width: 25vw;
+
+	.card {
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		color: black;
+		padding: var(--section-padding);
+		border-radius: var(--semi-rounded-borders);
+
+		img {
+			border-radius: var(--semi-rounded-borders);
+		}
+	}
+}

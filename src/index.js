@@ -1,2 +1,4 @@
 import "./normalize.css";
-import "./styles.css";
+import "./base.css";
+import "./homepage.css";
+import "./menu.css";
