@@ -1,5 +1,5 @@
 /* MENU GRID */
-#example-section {
+#menu-section {
 	margin: 0 auto;
 	min-width: 350px;
 	width: 50vw;
@@ -9,7 +9,7 @@
 	gap: 25px;
 }
 
-.example-card {
+.menu-card {
 	background-color: white;
 	padding: var(--section-padding);
 	display: flex;
