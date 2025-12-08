@@ -8,7 +8,6 @@ module.exports = {
 	output: {
 		filename: "main.js",
 		path: path.resolve(__dirname, "dist"),
-		publicPath: "/",
 		clean: true,
 	},
 
@@ -20,7 +19,7 @@ module.exports = {
 
 	devtool: "eval-source-map",
 	devServer: {
-		watchFiles: ["./src/template.html"],
+		watchFiles: ["./src/index.html"],
 	},
 
 	module: {
